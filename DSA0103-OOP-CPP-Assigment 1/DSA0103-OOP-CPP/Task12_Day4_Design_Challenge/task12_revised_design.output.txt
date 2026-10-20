@@ -1,0 +1,37 @@
+=== PART 1: Table-driven fare tests ===
+T1  Inner  07:00 weekday     expected Rs 10.00  actual Rs 10.00  PASS
+T2  Inner  08:00 weekday     expected Rs 12.00  actual Rs 12.00  PASS
+T3  Middle 09:00 weekday     expected Rs 24.00  actual Rs 24.00  PASS
+T4  Middle 10:00 weekday     expected Rs 20.00  actual Rs 20.00  PASS
+T5  Outer  17:00 weekday     expected Rs 36.00  actual Rs 36.00  PASS
+T6  Outer  19:59 weekday     expected Rs 36.00  actual Rs 36.00  PASS
+T7  Outer  20:00 weekday     expected Rs 30.00  actual Rs 30.00  PASS
+T8  Airport 08:00 weekday    expected Rs 72.00  actual Rs 72.00  PASS
+T9  Airport 08:00 weekend    expected Rs 54.00  actual Rs 54.00  PASS
+T10 Inner  12:00 weekend     expected Rs 9.00   actual Rs 9.00   PASS
+10/10 fare tests passed
+
+=== PART 2: Invalid input tests ===
+hour 24      -> rejected
+hour -1      -> rejected
+zone value 9 -> rejected
+
+=== PART 3: SmartCard boundary tests ===
+Rs 60.00, Rs 10.00 fare -> approved, balance Rs 50.00
+Rs 59.99, Rs 10.00 fare -> denied, balance Rs 59.99
+recharge(-100)  -> rejected, balance Rs 100.00
+recharge(2500)  -> accepted, balance Rs 125.00
+constructor with -500 paise -> balance Rs 0.00
+
+=== PART 4: Five-journey simulation (start Rs 150.00) ===
+Trip 1: Middle at 09:00  fare Rs 24.00  -> APPROVED, balance Rs 126.00
+Trip 2: Outer  at 14:00  fare Rs 30.00  -> APPROVED, balance Rs 96.00
+Trip 3: Outer  at 18:00  fare Rs 36.00  -> APPROVED, balance Rs 60.00
+Trip 4: Inner  at 08:00  fare Rs 12.00  -> DENIED,   balance Rs 60.00
+Trip 5: Inner  at 21:00  fare Rs 10.00  -> APPROVED, balance Rs 50.00
+Total collected: Rs 100.00, final balance: Rs 50.00
+
+=== PART 5: MonthlyPass tests (Inner+Middle, days 1-30) ===
+Inner,  day 15 covered: true
+Outer,  day 15 covered: false
+Middle, day 31 covered: false

@@ -1,0 +1,6 @@
+2 2.25
+E 70
+1 true
+s >= u
+safeCount = 3
+static_cast<int>(19.99) = 19

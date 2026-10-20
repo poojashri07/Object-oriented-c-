@@ -1,0 +1,5 @@
+Inner base fare (paise): 1000
+Min balance (paise)    : 5000
+Peak surcharge percent : 20
+BAD_FARE * 2 = 20  (expected 30, macro gives 20)
+(10+5) * 2   = 30

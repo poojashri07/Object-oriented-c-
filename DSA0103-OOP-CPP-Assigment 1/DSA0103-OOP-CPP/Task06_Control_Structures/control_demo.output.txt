@@ -1,0 +1,11 @@
+hour 7: Middle fare = 2000 paise
+hour 8: Middle fare = 2400 paise
+hour 9: Middle fare = 2400 paise
+hour 10: Middle fare = 2000 paise
+hour 16: Middle fare = 2000 paise
+hour 17: Middle fare = 2400 paise
+hour 19: Middle fare = 2400 paise
+hour 20: Middle fare = 2000 paise
+hour 24: INVALID, skipped
+hour -1: INVALID, skipped
+First peak hour found by while/break: 8

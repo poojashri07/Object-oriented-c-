@@ -1,0 +1,5 @@
+Procedural deduct(1000): true, balance 5000
+Procedural balance after careless write: -100 paise (invariant broken)
+OO deduct(1000): true, balance 5000
+OO deduct(1000): false, balance 5000 (blocked)
+OO constructor with -500 -> 0

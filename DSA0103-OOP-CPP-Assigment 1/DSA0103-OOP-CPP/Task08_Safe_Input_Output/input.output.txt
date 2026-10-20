@@ -1,0 +1,4 @@
+Enter hour (0-23): Invalid input. Enter a number.
+Enter hour (0-23): Hour must be from 0 to 23.
+Enter hour (0-23): Hour must be from 0 to 23.
+Enter hour (0-23): Accepted hour = 9

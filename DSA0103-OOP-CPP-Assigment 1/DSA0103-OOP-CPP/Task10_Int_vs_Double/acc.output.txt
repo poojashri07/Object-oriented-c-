@@ -1,0 +1,13 @@
+Integer paise total : 100000000 paise = Rs 1000000.000000
+double total        : Rs 999999.999839   error = -0.000161
+float total         : Rs 1087937.000000   error = 87937.000000
+
+3,000,000 journeys, fares cycle Rs 10/12/20/24/30/36
+long long paise : 6600000000 (Rs 66000000.00)
+double rupees   : 66000000.000000
+paise total > INT_MAX ? true  (INT_MAX = 2147483647)
+
+Daily collection at Rs 30 per journey:
+   20000 journeys -> Rs 600000
+  500000 journeys -> Rs 15000000
+ 3000000 journeys -> Rs 90000000
