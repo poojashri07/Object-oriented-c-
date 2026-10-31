@@ -1,0 +1,7 @@
+charge(2500)            : [int grams] [double kg] 100
+charge(2.5)             : [double kg] 100
+charge(2.5, true)       : [double kg] 130
+charge(2.5, true, true) : [double kg] 150
+charge(2)               : [int grams] [double kg] 0.08
+charge(2.0f)            : [double kg] 80
+charge(Parcel)          : [Parcel] [double kg] 130
