@@ -1,0 +1,5 @@
+  inside (value)   : 40500
+by value  : 45000
+by ref    : 40500
+by pointer: 40500
+by return : 40500
