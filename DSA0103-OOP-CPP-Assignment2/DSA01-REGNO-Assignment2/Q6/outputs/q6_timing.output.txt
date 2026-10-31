@@ -1,2 +1,0 @@
-inline    : 46.5021 ms  (checksum 4446446025)
-no inline : 46.5438 ms  (checksum 4446446025)

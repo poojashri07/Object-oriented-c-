@@ -1,1 +1,0 @@
-sizeof(long long) = 8, sizeof(Student) = 472, sizeof(Student*) = 8

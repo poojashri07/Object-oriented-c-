@@ -1,7 +1,0 @@
-A: Seat 1
-B: Seat 2
-C: Seat 3
-D: Waiting
-E: Waiting
-F: Waiting
-Issued: 3

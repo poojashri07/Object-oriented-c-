@@ -1,6 +1,0 @@
-P: Seat 1
-Q: Seat 2
-Issued after call 1: 2
-R: Seat 3
-S: Waiting
-Issued after call 2: 3
