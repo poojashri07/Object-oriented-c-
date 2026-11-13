@@ -1,0 +1,7 @@
+task2_access_error.cpp: In member function 'int Student::bad() const':
+task2_access_error.cpp:3:66: error: 'int Person::priv' is private within this context
+    3 | class Student : public Person { public: int bad() const { return priv; } };   // error: 'int Person::priv' is private
+      |                                                                  ^~~~
+task2_access_error.cpp:2:29: note: declared private here
+    2 | class Person { private: int priv = 3; };
+      |                             ^~~~

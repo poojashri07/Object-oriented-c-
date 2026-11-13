@@ -1,0 +1,5 @@
+sizeof(VehicleSwitch) = 48 bytes per vehicle (all fields always present)
+sizeof(VBi)=16 sizeof(VT)=16 sizeof(VC)=16 sizeof(VE)=16 (each = one vtable pointer + its own fields)
+switch  charge() x4000000 : 23.6977 ms
+virtual charge() x4000000 : 19.6761 ms
+identical totals

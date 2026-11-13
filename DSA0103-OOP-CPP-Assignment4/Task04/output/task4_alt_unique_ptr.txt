@@ -1,0 +1,9 @@
+3.5
+4
+  ~Account
+  ~SeniorAccount
+  ~Account
+sizeof(raw Account*) = 8, sizeof(unique_ptr<Account>) = 8
+raw pointers : 3.41472 ms
+unique_ptr   : 3.07353 ms
+same results

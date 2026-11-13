@@ -1,0 +1,10 @@
+  ---- fleet (2 vehicles, today 13-11-2026) ----
+  [free]    Car CR-201 @Rs.1800.00/day, level 20.00, service due 01-02-2027, seats 5
+  [free]    ElectricBus EB-401 @Rs.9000.00/day, level 200.00, service due 01-08-2027, seats 32, battery 250.00 kWh
+  [rent] ElectricBus EB-401 rented for 2 day(s)
+  [return] ElectricBus EB-401: planned 2, used 3, late 1 -> Rs.45765.00
+  [rent] Car CR-201 rented for 1 day(s)
+  [return] Car CR-201: planned 1, used 1, late 0 -> Rs.2430.00
+  ---- fleet (2 vehicles, today 13-11-2026) ----
+  [free]    Car CR-201 @Rs.1800.00/day, level 20.00, service due 01-02-2027, seats 5
+  [free]    ElectricBus EB-401 @Rs.9000.00/day, level 200.00, service due 01-08-2027, seats 32, battery 250.00 kWh

@@ -1,0 +1,6 @@
+(a) by name   : Asha  total = 162.00
+(b) by pointer: Bala  total = 200.00
+(c) reference : Charu  total = 120.00
+(d) new/delete: Dinesh  total = 42.75
+this == &object ? yes
+highest total: Esha = 650.00 (index 3)

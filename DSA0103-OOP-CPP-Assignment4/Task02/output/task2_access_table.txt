@@ -1,0 +1,11 @@
+Inside the derived class (member functions), via public/protected/private inheritance:
+  StudentPublic::inside()    = 3  (pub and prot usable)
+  StudentProtected::inside() = 3  (pub and prot usable)
+  StudentPrivate::inside()   = 3  (pub and prot usable)
+  priv is NOT accessible in any of them (private to Person)
+
+Outside code (main) using a Student object:
+                     Person::pub        Person::prot       Student* -> Person*
+  public inheritance : accessible    NOT accessible    allowed
+  protected inherit. : NOT accessible    NOT accessible    NOT allowed
+  private inheritance: NOT accessible    NOT accessible    NOT allowed

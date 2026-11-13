@@ -1,0 +1,2 @@
+Person(Asha) Student Staff TA 
+virtual bases : sizeof(Person)=32 sizeof(Student)=40 sizeof(TeachingAssistant)=48

@@ -1,0 +1,6 @@
+capacity before = 2, &v[0] = 0x5652694f72b0
+capacity after  = 4, &v[0] = 0x5652694f8610
+pointer is now DANGLING (vector moved its elements)
+sizeof(Cart) = 416 bytes; sizeof(Cart*) = 8 bytes
+vector<Cart>   scan: 3.42894 ms (best 999)
+Cart* array    scan: 3.01041 ms (best 999)

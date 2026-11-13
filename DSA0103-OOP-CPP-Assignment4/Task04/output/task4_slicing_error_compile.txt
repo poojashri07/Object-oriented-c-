@@ -1,0 +1,7 @@
+task4_slicing_error.cpp: In function 'int main()':
+task4_slicing_error.cpp:13:34: error: use of deleted function 'Account::Account(const Account&)'
+   13 |     Account copy = SeniorAccount();      // error: use of deleted function
+      |                                  ^
+task4_slicing_error.cpp:6:5: note: declared here
+    6 |     Account(const Account&) = delete;
+      |     ^~~~~~~

@@ -1,0 +1,2 @@
+Person(Asha) Student Person(Asha) Staff TA 
+plain bases   : sizeof(Person)=32 sizeof(Student)=32 sizeof(TeachingAssistant)=64

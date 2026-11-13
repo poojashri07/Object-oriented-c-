@@ -1,0 +1,13 @@
+  SeniorAccount() allocates history[100]
+[1] rates through base pointers:
+3.5
+3.5
+[2] deleting through base pointers:
+  ~Account
+  ~Account
+[3] slicing:
+  SeniorAccount() allocates history[100]
+  ~SeniorAccount frees history
+  ~Account
+stored element rate = 3.5  (sizeof Account=1, sizeof SeniorAccount=8)
+  ~Account

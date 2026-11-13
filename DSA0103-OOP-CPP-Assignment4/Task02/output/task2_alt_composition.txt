@@ -1,0 +1,6 @@
+sizeof(Person)                  = 72
+sizeof(TA_Inherit) virtual base = 168
+sizeof(TA_Compose) composition  = 224
+inheritance : a.name = Kavya
+composition : c.student.name = Kavya, c.staff.name = Kavya  (two independent copies)
+after editing student copy: staff copy still = Kavya  <-- inconsistency risk

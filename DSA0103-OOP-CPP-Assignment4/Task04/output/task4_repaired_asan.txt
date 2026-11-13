@@ -1,0 +1,14 @@
+  SeniorAccount() allocates history[100]
+[1] rates through base pointers:
+3.5
+4
+[2] deleting through base pointers:
+  ~Account
+  ~SeniorAccount frees history
+  ~Account
+[3] polymorphic storage without slicing (pointers, not copies):
+  SeniorAccount() allocates history[100]
+stored element rate = 4
+  ~SeniorAccount frees history
+  ~Account
+ASan exit code: 0

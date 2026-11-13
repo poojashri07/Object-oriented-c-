@@ -1,0 +1,8 @@
+task2_ambiguity_error.cpp: In function 'int main()':
+task2_ambiguity_error.cpp:12:21: error: request for member 'name' is ambiguous
+   12 |     std::cout << ta.name << '\n';               // ERROR: request for member 'name' is ambiguous
+      |                     ^~~~
+task2_ambiguity_error.cpp:5:30: note: candidates are: 'std::string Person::name'
+    5 | struct Person  { std::string name = "Asha"; };
+      |                              ^~~~
+task2_ambiguity_error.cpp:5:30: note:                 'std::string Person::name'

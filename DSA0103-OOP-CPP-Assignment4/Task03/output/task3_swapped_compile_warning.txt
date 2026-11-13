@@ -1,0 +1,10 @@
+task3_complete_code_swapped.cpp: In constructor 'Student::Student(const std::string&, int, long long int, const std::string&, int)':
+task3_complete_code_swapped.cpp:24:13: warning: 'Student::home' will be initialized after [-Wreorder]
+   24 |     Address home;
+      |             ^~~~
+task3_complete_code_swapped.cpp:23:15: warning:   'long long int Student::regNo' [-Wreorder]
+   23 |     long long regNo;
+      |               ^~~~~
+task3_complete_code_swapped.cpp:28:5: warning:   when initialized here [-Wreorder]
+   28 |     Student(const std::string& n, int a, long long r, const std::string& city, int pin)
+      |     ^~~~~~~

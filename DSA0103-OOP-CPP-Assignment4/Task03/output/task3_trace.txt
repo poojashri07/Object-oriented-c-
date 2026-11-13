@@ -1,0 +1,29 @@
+--- Student object ---
+  Address(Salem)
+  Person(Kavya)
+  Course(OOP)
+  Student
+  ~Student
+  ~Course
+  ~Person
+  ~Address
+--- Staff object ---
+  Address(Chennai)
+  Person(Ravi)
+  Staff
+  ~Staff
+  ~Person
+  ~Address
+--- TeachingAssistant object ---
+  Address(Madurai)
+  Person(Asha)
+  Course(DSA)
+  Student
+  Staff
+  TeachingAssistant
+  ~TeachingAssistant
+  ~Staff
+  ~Student
+  ~Course
+  ~Person
+  ~Address

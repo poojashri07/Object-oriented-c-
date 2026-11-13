@@ -1,0 +1,4 @@
+Professor     Dr. Meena  101   118600.00
+LabAssistant  Ravi       102    42600.00
+GuestFaculty  Anita      201    60000.00
+Total payroll: 221200.00

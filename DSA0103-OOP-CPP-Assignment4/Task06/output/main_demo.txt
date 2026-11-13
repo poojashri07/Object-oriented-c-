@@ -1,0 +1,39 @@
+== initial fleet ==
+  ---- fleet (5 vehicles, today 13-11-2026) ----
+  [free]    Bicycle BI-001 @Rs.150.00/day
+  [free]    TwoWheeler TW-101 @Rs.400.00/day, level 5.00, service due 01-03-2027
+  [free]    Car CR-201 @Rs.1800.00/day, level 20.00, service due 01-02-2027, seats 5
+  [free]    ElectricCar EV-301 @Rs.2500.00/day, level 40.00, service due 01-06-2027, seats 5, battery 40.00 kWh
+  [BLOCKED] Car CR-202 @Rs.1800.00/day, level 15.00, service due 01-10-2026, seats 4
+
+== renting each type ==
+  [rent] Bicycle BI-001 rented for 2 day(s)
+  [rent] TwoWheeler TW-101 rented for 3 day(s)
+  [rent] Car CR-201 rented for 4 day(s)
+  [rent] ElectricCar EV-301 rented for 2 day(s)
+  [rent] CR-202: NOT available (rented or service overdue)
+  [rent] BI-001: NOT available (rented or service overdue)
+  [rent] XX-999: not found
+
+== fleet after renting ==
+  ---- fleet (5 vehicles, today 13-11-2026) ----
+  [RENTED]  Bicycle BI-001 @Rs.150.00/day
+  [RENTED]  TwoWheeler TW-101 @Rs.400.00/day, level 5.00, service due 01-03-2027
+  [RENTED]  Car CR-201 @Rs.1800.00/day, level 20.00, service due 01-02-2027, seats 5
+  [RENTED]  ElectricCar EV-301 @Rs.2500.00/day, level 40.00, service due 01-06-2027, seats 5, battery 40.00 kWh
+  [BLOCKED] Car CR-202 @Rs.1800.00/day, level 15.00, service due 01-10-2026, seats 4
+
+== returns (second argument = days actually used, third = litres or kWh consumed) ==
+  [return] Bicycle BI-001: planned 2, used 2, late 0 -> Rs.300.00
+  [return] TwoWheeler TW-101: planned 3, used 5, late 2 -> Rs.3220.00
+  [return] Car CR-201: planned 4, used 4, late 0 -> Rs.8512.50
+  [return] ElectricCar EV-301: planned 2, used 3, late 1 -> Rs.10162.00
+  [return] EV-301: not currently rented
+
+== final fleet ==
+  ---- fleet (5 vehicles, today 13-11-2026) ----
+  [free]    Bicycle BI-001 @Rs.150.00/day
+  [free]    TwoWheeler TW-101 @Rs.400.00/day, level 5.00, service due 01-03-2027
+  [free]    Car CR-201 @Rs.1800.00/day, level 20.00, service due 01-02-2027, seats 5
+  [free]    ElectricCar EV-301 @Rs.2500.00/day, level 40.00, service due 01-06-2027, seats 5, battery 40.00 kWh
+  [BLOCKED] Car CR-202 @Rs.1800.00/day, level 15.00, service due 01-10-2026, seats 4

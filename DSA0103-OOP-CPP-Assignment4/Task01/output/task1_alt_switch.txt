@@ -1,0 +1,8 @@
+sizeof(StaffSwitch)  = 80 bytes (all fields in every object)
+sizeof(Professor-like P)    = 24 bytes (incl. vptr)
+sizeof(LabAssistant-like L) = 16 bytes (incl. vptr)
+sizeof(GuestFaculty-like G) = 24 bytes (incl. vptr)
+switch  : 20.8538 ms
+virtual : 13.5734 ms
+Places to change for a new type: switch design = enum + pay() switch + fields (existing class edited);
+virtual design = one NEW class only.
